@@ -1,0 +1,19 @@
+body{
+	/*Espaciado entre bordes de la pagina. % soluciona el tamaño de la ventana del navegador*/
+	margin: 2%;
+}
+.Caja{
+	/*Tamaño de la caja. % refiere al tamaño del header del documento*/
+	width: 96%; 
+}
+#Fondo{
+	/*Hacer que la imagen abarque todo el tamaño del contenedor*/
+	width: 100%;	
+	/*Esquinas redondas*/
+	border-radius: 15px;
+}
+
+/*Cambiar el cursor en ciertas etiquetas*/
+.Cursor{
+	cursor: pointer;
+}
