@@ -11,7 +11,7 @@ function Show(){
 /*Cambiar fondo del banner*/
 function CambiarFondo(){
 	var Fondo = document.getElementById("Fondo").getAttribute("src");
-
+	alert(Fondo);
 	if(Fondo == "Media/1.png")
 		document.getElementById("Fondo").setAttribute("src","Media/2.png");
 	else if(Fondo == "Media/2.png")
