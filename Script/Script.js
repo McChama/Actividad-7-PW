@@ -12,10 +12,10 @@ function Show(){
 function CambiarFondo(){
 	var Fondo = document.getElementById("Fondo").getAttribute("src");
 	alert(Fondo);
-	if(Fondo == "Media/1.png")
-		document.getElementById("Fondo").setAttribute("src","Media/2.png");
-	else if(Fondo == "Media/2.png")
-		document.getElementById("Fondo").setAttribute("src","Media/1.png");
+	if(Fondo == "Media/1.PNG")
+		document.getElementById("Fondo").setAttribute("src","Media/2.PNG");
+	else if(Fondo == "Media/2.PNG")
+		document.getElementById("Fondo").setAttribute("src","Media/1.PNG");
 }
 
 /*Cambiar color de fondo*/
